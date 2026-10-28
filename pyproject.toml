@@ -25,9 +25,8 @@ keywords = ["workflow", "ai", "agent", "orchestration", "automation", "pipeline"
 [project.optional-dependencies]
 dev = ["pytest", "pytest-asyncio"]
 
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["tiny_ai_workflow*"]
+[tool.setuptools]
+py-modules = ["tiny_ai_workflow"]
 
 [tool.pytest.ini_options]
 testpaths = ["test_*.py"]

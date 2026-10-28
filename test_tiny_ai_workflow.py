@@ -144,7 +144,9 @@ class TestWorkflowResult(unittest.TestCase):
 
         result = wf.run()
         self.assertIn("completed", result.summary())
-        self.assertIn("ok", result.failed_steps())
+        # "ok" succeeded, so it must NOT be reported as failed.
+        self.assertNotIn("ok", result.failed_steps())
+        self.assertEqual(result.failed_steps(), [])
 
     def test_is_complete(self):
         wf = Workflow(name="test")

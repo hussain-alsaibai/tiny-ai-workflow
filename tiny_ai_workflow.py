@@ -111,7 +111,7 @@ class WorkflowStep:
     approval_prompt: str = ""
     # Runtime
     state: StepState = StepState.PENDING
-    result: Any = field(default_factory=None, init=False)
+    result: Any = field(default=None, init=False)
     error: Exception | None = field(default=None, init=False)
     started_at: datetime | None = field(default=None, init=False)
     finished_at: datetime | None = field(default=None, init=False)
