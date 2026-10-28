@@ -3,7 +3,7 @@
 > **Stateless AI agent workflow orchestration engine.**  
 > Multi-step workflows with retry, branching, parallel fan-out, and human-in-the-loop checkpoints.
 
-[![Python](https://img.shields.io/pypi/pyversions/tiny-ai-workflow.svg)](https://pypi.org/project/tiny-ai-workflow/)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://github.com/hussain-alsaibai/tiny-ai-workflow#install)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Why?
