@@ -27,7 +27,8 @@ AI agents need to orchestrate complex multi-step tasks: fetch → analyze → de
 ## Installation
 
 ```bash
-pip install tiny-ai-workflow
+# From GitHub (recommended -- not yet on PyPI)
+pip install git+https://github.com/hussain-alsaibai/tiny-ai-workflow.git
 ```
 
 ## Quick Start
